@@ -18,6 +18,8 @@ import com.example.workmanagerincompose.ui.theme.WorkManagerInComposeTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+
         setContent {
             WorkManagerInComposeTheme {
                 // A surface container using the 'background' color from the theme
