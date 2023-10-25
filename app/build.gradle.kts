@@ -66,4 +66,25 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+    val work_version = "2.8.1"
+
+
+    // Kotlin + coroutines
+    implementation("androidx.work:work-runtime-ktx:$work_version")
+
+    // Compose dependencies
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.4.1")
+    implementation("androidx.compose.runtime:runtime-livedata:1.2.0-alpha03")
+
+    // Coil
+    implementation( "io.coil-kt:coil-compose:1.4.0")
+
+    // WorkManager with Coroutines
+
+    // Retrofit
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+
 }
